@@ -11,6 +11,6 @@ Just a little site example
 
 ## AR content
 
-As they are updated you can find links to examples of the different types of AR.
+this will show you to the page to click on the AR
 
-1. First, navigate to an example of using a `JavaScript` button to open the `AR` content we looked at [today](website/index.html)
+navigate to an example of using a `JavaScript` button to open the `AR` [Games](website/index.html)
