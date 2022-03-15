@@ -5,9 +5,9 @@ title: AR Site
 permalink: docs/index
 ---
 
-# Sample site for group projects
+# Group Project For 1720
 
-Just a little site example
+A site to access our AR coding Project
 
 ## AR content
 
