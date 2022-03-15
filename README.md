@@ -1,6 +1,6 @@
-# Sample site for group projects
+# Official site for group 20
 
-Just a little site example
+Models that come to life
 
 ## Structure
 
