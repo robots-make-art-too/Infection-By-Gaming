@@ -18,7 +18,8 @@
 		id="scene">
 			
 			<a-assets>
-				<a-asset-item id="bee" src"Bee.glb " ></a-asset-item>
+				<a-asset-item id="bee" src"Bee.glb"></a-asset-item>
+				<a-asset-item id="bowser" src"bowser.glb"></a-asset-item>				
 <!-- 				<a-asset-item id="model" src"model.obj" ></a-asset-item> -->
 			</a-assets>
 			
@@ -27,13 +28,13 @@
 <!-- 				<a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
 				<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> -->
 <!-- 				<a-entity id="model-obj" position="-1 0 -3" scale="0.5 0.5 0.5" obj-model="obj: #model;"></a-entity>  -->
-				<a-entity id="bee-gltf" position="-0.5 0.5 -3"  gltf-model="#bee"></a-entity>	
+				<a-entity id="bee-gltf" position="-0.5 0.5 -3" gltf-model="#bee"></a-entity>	
 			</a-marker>
 			<!-- ; mtl: #tree-mtl-->
 			<a-marker id="kanji-1" preset="kanji">
 				<!-- <a-sky color="#ECECEC"></a-sky> -->
 				<a-sphere position='-1.5 0.5 0' color='blue';></a-sphere>
-<!-- 				<a-entity id="bee-gltf" position="-0.5 0.5 -3"  gltf-model="#bee"></a-entity> -->
+				<a-entity id="bowser-gltf" scale="0.5 0.5 0.5" gltf-model="#bowser"></a-entity>
 			</a-marker> 
 
 			<a-entity camera></a-entity>
