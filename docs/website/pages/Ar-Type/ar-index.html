@@ -35,9 +35,12 @@
 				<!-- <a-sky color="#ECECEC"></a-sky> -->
 				<a-sphere position='-1.5 0.5 0' color='blue';></a-sphere>
 				<a-entity id="bowser-gltf" scale="0.25 0.25 0.25" gltf-model="#bowser"></a-entity>
-			</a-marker> 
-                        </a-marker id="custom-1" type="pattern" url="docs/website/assets/pattern-light.patt">
-		         
+			</a-marker>
+			
+                       <a-marker id="custom-1" type="pattern" url="../assets/pattern-sword.patt">
+		                <a-entity id="bowser-gltf" scale="0.25 0.25 0.25" gltf-model="#bowser"></a-entity>
+		        </a-marker>
+	
 			<a-entity camera></a-entity>
 
 		</a-scene>
