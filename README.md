@@ -1,6 +1,7 @@
 # Official site for group 20
 
 Models that come to life
+press on the modle to start a dialog with the model
 
 ## Structure
 
