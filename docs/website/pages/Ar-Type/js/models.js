@@ -20,12 +20,6 @@ function Character(name, dialogue, tool, successDialogue) {
 Character.prototype = Object.create(ARModel.prototype);
 
 
-//Tool model
-function Tool(name, dialogue) {
-    ARModel.call(this, name, dialogue);
-}
-Tool.prototype = Object.create(ARModel.prototype);
-
 // we would repeat an intialization step for each character we have
 // so the parts between { }, in the charactersArray = []
 // for example if I had a second character, `chocobo` I would add like so:
@@ -55,7 +49,7 @@ function initiateModels() {
     });
 
     console.log('characters', characters);
-    console.log('tools', tools)
+    
 }
 
 initiateModels()
