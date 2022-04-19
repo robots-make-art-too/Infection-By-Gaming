@@ -24,8 +24,6 @@ function handleClickEvent() {
     var characterMarker = document.querySelector("#" + character.name + "-marker");
     if (characterMarker && characterMarker.object3D.visible) {
       if (searchForCharacterTool(character)){
-        toggleConvoBubble(character.successDialogue);
-      } else {
         toggleConvoBubble(character.dialogue);
       }
     }
