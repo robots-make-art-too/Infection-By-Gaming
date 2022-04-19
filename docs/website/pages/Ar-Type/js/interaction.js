@@ -22,10 +22,8 @@ function hideConvoBubbleIfNoMarker() {
 function handleClickEvent() {
   characters.forEach(function(character) {
     var characterMarker = document.querySelector("#" + character.name + "-marker");
-    if (characterMarker && characterMarker.object3D.visible) {
-      if (searchForCharacterTool(character)){
+    if (characterMarker && characterMarker.object3D.visible) {  
         toggleConvoBubble(character.dialogue);
-      }
     }
   });
 
