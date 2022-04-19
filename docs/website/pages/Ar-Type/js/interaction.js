@@ -18,13 +18,6 @@ function hideConvoBubbleIfNoMarker() {
     if (characterMarker && characterMarker.object3D.visible) shouldHide = false;
   });
 
-  tools.forEach(function(tool){
-    var toolMarker = document.querySelector("#" + tool.name + "-marker");
-    if (toolMarker && toolMarker.object3D.visible) shouldHide = false;
-  });
-
-  if (shouldHide) convoBubble.style.display = 'none';
-};
 
 function handleClickEvent() {
   characters.forEach(function(character) {
@@ -38,14 +31,6 @@ function handleClickEvent() {
     }
   });
 
-  tools.forEach(function(tool){
-    var toolMarker = document.querySelector("#" + tool.name + "-marker");
-    if (toolMarker && toolMarker.object3D.visible) {
-      toggleConvoBubble(tool.dialogue);
-      if (!gamerState.hasCharacterTool(tool)) gamerState.addTool(tool);
-    }
-  });
-}
 
 function toggleConvoBubble(dialogue) {
   var convoBubble = document.querySelector(".convo-bubble");
