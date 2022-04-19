@@ -26,13 +26,13 @@ Character.prototype = Object.create(ARModel.prototype);
 function initiateModels() {
     var charactersArray = [
       {
-        name: 'bee',
+        name: 'bowser',
         dialogue: 'Hi there, I\'m Bowser! I\'ve lost my skull. Let me know if you see it!',
         tool: new Tool('skull', 'You have found Bowser\'s skull!'),
         successDialogue: 'Thanks for my skull!'
       },
       {
-        name: 'chocobo',
+        name: 'bee',
         dialogue: 'sqauak squaaak SQUAKKKKK',
         tool: new Tool('seeds', 'You have found Chocobo\'s bird seed!'),
         successDialogue: 'Squeek! Yum!'
