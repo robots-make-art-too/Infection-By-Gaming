@@ -41,9 +41,3 @@ function toggleConvoBubble(dialogue) {
     convoBubble.style.display = 'none';
   }
 };
-
-function searchForCharacterTool(character) {
-  return gamerState.tools.some(function(tool) {
-    return tool.name === character.tool.name;
-  });
-};
