@@ -32,7 +32,7 @@ Tool.prototype = Object.create(ARModel.prototype);
 function initiateModels() {
     var charactersArray = [
       {
-        name: 'bowser',
+        name: 'bee',
         dialogue: 'Hi there, I\'m Bowser! I\'ve lost my skull. Let me know if you see it!',
         tool: new Tool('skull', 'You have found Bowser\'s skull!'),
         successDialogue: 'Thanks for my skull!'
