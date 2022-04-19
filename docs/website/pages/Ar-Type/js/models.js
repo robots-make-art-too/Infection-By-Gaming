@@ -12,7 +12,7 @@ ARModel.prototype.speak = function() {
 
 
 //Character model
-function Character(name, dialogue, tool, successDialogue) {
+function Character(name, dialogue) {
     ARModel.call(this, name, dialogue);
    
 }
