@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	</head>
+
+	<body style='margin : 0px; overflow: hidden;'>
+		
+		<a-scene
+		arjs="sourceType: webcam; debugUIEnabled: false;"
+		embedded
+		renderer="logarithmicDepthBuffer: true;"
+		vr-mode-ui="enabled: false"
+		id="scene">
+		
+		<a-assets>
+			<a-asset-item id="coca" src="https://raw.githubusercontent.com/robots-make-art-too/Infection-By-Gaming/ydlqd/modle%20and%20patt/coca.gltf"></a-asset-item>
+		</a-assets>
+		<a-marker type="pattern" url="https://raw.githubusercontent.com/robots-make-art-too/Infection-By-Gaming/ydlqd/modle%20and%20patt/pattern-nococakid.patt">
+			<a-entity id="coca" positon="0 0 0" rotation="45 -45 0" scale="0.7 0.7 0.7" gltf-model="#coca"></a-entity>
+		 </a-marker>
+			<a-entity camera></a-entity>
+		</a-scene>
+	</body>
+</htlm>
