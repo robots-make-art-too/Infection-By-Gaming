@@ -32,10 +32,6 @@ function initiateModels() {
         dialogue: 'sqauak squaaak SQUAKKKKK',
      
       },
-      {
-        name: 'demo',
-        dialogue: 'Building Interactive Systems!',
-      },
     ];
 
     charactersArray.forEach(function(character){
