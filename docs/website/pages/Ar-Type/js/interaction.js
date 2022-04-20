@@ -17,6 +17,7 @@ function hideConvoBubbleIfNoMarker() {
     var characterMarker = document.querySelector("#" + character.name + "-marker");
     if (characterMarker && characterMarker.object3D.visible) shouldHide = false;
   });
+};
 
 
 function handleClickEvent() {
@@ -26,6 +27,7 @@ function handleClickEvent() {
         toggleConvoBubble(character.dialogue);
     }
   });
+};
 
 
 function toggleConvoBubble(dialogue) {

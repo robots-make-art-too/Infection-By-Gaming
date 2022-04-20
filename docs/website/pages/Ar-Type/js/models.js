@@ -1,4 +1,4 @@
-var characters = [],
+var characters = [];
 
 function ARModel(name, dialogue) {
     this.name = name;
@@ -25,20 +25,17 @@ function initiateModels() {
     var charactersArray = [
       {
         name: 'mario',
-        dialogue: 'Hi there, I\'m Bowser! I\'ve lost my skull. Let me know if you see it!',
-       
-        
+        dialogue: 'Hi there, I\'m Bowser! I\'ve lost my skull. Let me know if you see it!', 
       },
       {
         name: 'buster',
         dialogue: 'sqauak squaaak SQUAKKKKK',
-      
      
       },
       {
         name: 'demo',
         dialogue: 'Building Interactive Systems!',
-      }
+      },
     ];
 
     charactersArray.forEach(function(character){
