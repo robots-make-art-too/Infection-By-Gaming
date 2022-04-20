@@ -1,2 +1,1 @@
-
 var gamerState = new GamerState();

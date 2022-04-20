@@ -4,11 +4,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<meta name="description" content="">
     	<meta name="author" content="">
-			<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+			<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
 			<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-			<script type="text/javascript" src="js/gamerState.js"></script>
-			<script type="text/javascript" src="js/interaction.js"></script>
-			<script type="text/javascript" src="js/models.js"></script>
+			<script type="text/javascript" src="./js/gamerState.js"></script>
+			<script type="text/javascript" src="./js/interaction.js"></script>
+			<script type="text/javascript" src="./js/models.js"></script>
 	</head>
 
 	<body style='margin : 0px; overflow: hidden;'>
@@ -23,15 +23,15 @@
 			id="scene">
 			
 			<a-assets>
-				<a-asset-item id="bee" src="Bee.glb"></a-asset-item>
-				<a-asset-item id="mario" src="../../assets/man_.glb"></a-asset-item>				
+				<a-asset-item id="bee" src="./assets/models/Bee.glb"></a-asset-item>
+				<a-asset-item id="mario" src="./assets/models/man_.glb"></a-asset-item>				
 			</a-assets>
 			
-      <a-marker id="buster-marker" type="pattern" preset="custom" url="./pattern-buster.patt">
+      <a-marker id="buster-marker" type="pattern" preset="custom" url="./assets/markers/buster-marker.patt">
 		    <a-entity id="bee-gltf" scale="0.25 0.25 0.25" gltf-model="#bee"></a-entity>
 		  </a-marker>
 	
-			<a-marker id="custom-1" type="pattern" preset="custom" url="./pattern-mario.patt">
+			<a-marker id="mario-marker" type="pattern" preset="custom" url="./assets/markers/mario-marker.patt">
 		    <a-entity id="mario-gltf" scale="0.15 0.15 0.15" gltf-model="#mario"></a-entity>
 		  </a-marker>
 	

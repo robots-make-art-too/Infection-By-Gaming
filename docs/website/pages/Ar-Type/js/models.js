@@ -1,5 +1,4 @@
 var characters = [],
-    tools = [];
 
 function ARModel(name, dialogue) {
     this.name = name;
