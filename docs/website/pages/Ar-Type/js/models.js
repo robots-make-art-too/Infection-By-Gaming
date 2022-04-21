@@ -29,7 +29,7 @@ function initiateModels() {
       },
       {
         name: 'buster',
-        dialogue: 'Boooo!!! scared',
+        dialogue: 'Boooo!!! scared you. hehe',
      
       },
     ];
