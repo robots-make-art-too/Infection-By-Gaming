@@ -25,7 +25,7 @@ function initiateModels() {
     var charactersArray = [
       {
         name: 'mario',
-        dialogue: 'Hello there, what are you doing here? no visitors have been here in years.', 
+        dialogue: 'Hello there, what are you doing here? no visitors have been here in years. well if i was you i would get out of here or she will get you!', 
       },
       {
         name: 'buster',
